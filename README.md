@@ -4,6 +4,5 @@
 - IntelliJ IDEA
 - Atom
 - PostgreSQL
-- JavaFX
-- Gluon Scene Builder
+- JavaFX + Gluon Scene Builder
 - GitHub
