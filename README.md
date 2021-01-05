@@ -6,3 +6,4 @@
 - PostgreSQL
 - JavaFX
 - Gluon Scene Builder
+- `git`
