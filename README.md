@@ -1,4 +1,5 @@
 # FBLA Coding & Programming Submission 2020-21
+
 ### Database & Storage
 I initially planned on using a flat text file to store the questions for this project, but I eventually decided on a *PostgreSQL* database. The main reason for this was systematic
 updates. If the database were to receive an update while multiple users had this program, the update wouldn't transfer over to all instances of the file. That being said, a PostgreSQL database could be accessed with the most updated information by all users, and from different machines. Security-wise, only a superuser would have the ability to change its contents, and it also, theoretically, could only be accessed by certain users by modifying the `pg_hba.conf` and `postgresql.conf` files to configure allowed IPs.
@@ -34,4 +35,4 @@ which accesses the database, does so by utilizing `localhost:5432` as a part of 
 * All source files which I created on can be found in `/src/sample` 
 * Images used in the program can be found in `/src/images`
 * The necessary `bash` arguments that I used to launch the program can be found in `VMConfigurations.txt` (these just pointed to where I had the *JavaFX* library installed)
-
+* My database backup, or dump file, is `dump.sql`. This file can be run in a PostgreSQL shell to create a new copy of the database.
