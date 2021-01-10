@@ -1,0 +1,26 @@
+Q: I clicked the button to get my results after taking the quiz, where are they?
+
+A: In the exact directory that this file is in! The file itself is titled "results.txt" (or in some cases
+   just "results"), and can be customized however you'd like! Since it is a flat text file, it can
+   be plugged into almost any other program that deals with documents, or even graphics (ie. Microsoft
+   Word, Adobe Acrobat, Adobe Photoshop, etc.)
+
+---------------------------------------------------------------------------------------------------------
+
+Q: Where can I find the images that were used in this program?
+
+A: In the "src" folder, there should be another folder titled "images". They are all in there!
+
+---------------------------------------------------------------------------------------------------------
+
+Q: I have a question for the developer, how long will it take for him to respond?
+
+A: You should receive an answer from me within 1-2 business days.
+
+---------------------------------------------------------------------------------------------------------
+
+Q: One of my answers that I inputted was deemed wrong, even though I'm sure it was right. What
+   should I do?
+
+A: All questions and answers were fact-checked, and made based off of the online resources from FBLA.
+   If you still feel something is incorrect, please send a message to the email on the help screen.
