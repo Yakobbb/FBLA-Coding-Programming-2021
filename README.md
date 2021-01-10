@@ -16,7 +16,7 @@ While I was the only developer of this project, I chose to periodically push my 
 
 ### Output Reports
 Rather than spending a great amount of time adding a section to the program where the user can customize the results of his/her quiz, I chose to output a flat text file. The
-file itself contains all the necessary information to summarize the quiz, and due to it being `.txt`, can be plugged into any external document or graphical modifier. These include Microsoft Word, Adobe Acorbat, or even a high-end app like Adobe Photoshop.
+file itself contains all the necessary information to summarize the quiz, and due to it being `.txt`, can be plugged into any external document or graphical modifier. These include Microsoft Word, Adobe Acrobat, or even a high-end app like Adobe Photoshop.
 
 ### Dependencies/Tools Used
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) (class and controller development)
