@@ -1,0 +1,326 @@
+/*
+This is the styling sheet that is used for all of the .fxml files and objects.
+All of the CSS used is just simple and standard JavaFX CSS (nothing
+really fancy). That being said, many of these configurations are very similar,
+or in fact the same for that matter, but I found it easier just to code
+all necessary specifications for each individual object since it allowed
+me to focus on one at a time, rather than worrying about sorting the objects
+into multiple groups during the process. If I had more development
+time in the future, I would definitely try to reorganize this file to reduce
+redundancy, and make it more "readable" for other programmers.
+*/
+
+#button1 {
+    -fx-font-size: 20px ;
+    -fx-background-color: salmon;
+    -fx-text-fill:blue;
+    -fx-padding: 6 6 6 6;
+    -fx-border-radius: 8;
+    -fx-font-weight: bold;
+
+}
+
+/* All other backgrounds follow the Menu background */
+#MenuBackground {
+    -fx-background-color: linear-gradient(to bottom right, rgba(214, 21, 21), blue);
+}
+
+#welcome {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-background-color: linear-gradient(to top left, rgba(214, 21, 21), blue);
+}
+
+#categorySelect {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+}
+
+#eventsCategoryButton {
+    -fx-background-color: rgba(255, 251, 135);
+    -fx-border-width: 4;
+    -fx-border-color: rgba(196, 190, 0);
+    -fx-font-color: black;
+
+}
+
+#eventsCategoryButton:hover {
+    -fx-background-color: rgba(255, 251, 135);
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-font-color: black;
+}
+
+#bylawsCategoryButton {
+    -fx-background-color: rgba(87, 255, 101);
+    -fx-border-width: 4;
+    -fx-border-color: rgba(0, 107, 9);
+    -fx-font-color: black;
+}
+
+#bylawsCategoryButton:hover {
+    -fx-background-color: rgba(87, 255, 101);
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-font-color: black;
+}
+
+#randomCategoryButton {
+    -fx-background-color: rgba(255, 87, 120);
+    -fx-border-width: 4;
+    -fx-border-color: rgba(135, 1, 28);
+    -fx-font-color: black;
+}
+
+#randomCategoryButton:hover {
+    -fx-background-color: rgba(255, 87, 120);
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-font-color: black;
+}
+
+#everythingCategoryButton {
+    -fx-background-color: rgba(93, 84, 255);
+    -fx-border-width: 4;
+    -fx-border-color: rgba(8, 1, 135);
+    -fx-font-color: black;
+}
+
+#everythingCategoryButton:hover {
+    -fx-background-color: rgba(93, 84, 255);
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-font-color: black;
+}
+
+#helpButton {
+    -fx-background-color: transparent;
+}
+
+#helpLabel {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-padding: 30px;
+}
+
+#helpLabel2 {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-padding: 30px;
+}
+
+#helpReturnButton {
+    -fx-background-color: transparent;
+}
+
+#instructionsLabel {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-padding: 30px;
+}
+
+#quickNote {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-padding: 30px;
+}
+
+#begin {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: linear-gradient(to top left, rgba(214, 21, 21), blue);
+    -fx-text-fill: white;
+}
+
+#begin:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+#questionText {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-padding: 20px;
+}
+
+
+#choice1:selected {
+    -fx-border-color: #5eda62;
+    -fx-text-fill: #5eda62;
+    -fx-border-width: 2;
+    -fx-padding: 5px;
+}
+
+#choice2:selected {
+    -fx-border-color: red;
+    -fx-text-fill: red;
+    -fx-border-width: 2;
+    -fx-padding: 5px;
+}
+
+#choice3:selected {
+    -fx-border-color: #1f9dff;
+    -fx-text-fill: #1f9dff;
+    -fx-border-width: 2;
+    -fx-padding: 5px;
+}
+
+#choice4:selected {
+    -fx-border-color: rgba(251, 255, 0);
+    -fx-text-fill: rgba(251, 255, 0);
+    -fx-border-width: 2;
+    -fx-padding: 5px;
+}
+
+#submit {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: linear-gradient(to top left, rgba(214, 21, 21), blue);
+    -fx-text-fill: white;
+}
+
+#submit:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+#correctLabel {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: #00ff11;
+    -fx-text-fill: #00ff11;
+}
+
+#nextQuestionButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: linear-gradient(to top left, rgba(214, 21, 21), blue);
+    -fx-text-fill: white;
+}
+
+#nextQuestionButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+#wrongLabel {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: #ff1100;
+    -fx-text-fill: #ff1100;
+}
+
+
+#secondStatement {
+    -fx-border-width: 3;
+    -fx-border-color: white;
+}
+
+#thirdStatement {
+    -fx-border-width: 3;
+    -fx-border-color: white;
+}
+
+#fourthStatement {
+    -fx-border-width: 3;
+    -fx-border-color: white;
+}
+
+#trueButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+}
+
+#trueButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: blue;
+    -fx-text-fill: blue;
+}
+
+#falseButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+}
+
+#falseButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: red;
+    -fx-text-fill: red;
+}
+
+#leftColumn1 {
+    -fx-border-width: 3;
+    -fx-border-color: white;
+}
+
+#leftColumn2 {
+    -fx-border-width: 3;
+    -fx-border-color: white;
+}
+
+#leftColumn3 {
+    -fx-border-width: 3;
+    -fx-border-color: white;
+}
+
+#rightColumn1 {
+    -fx-border-width: 3;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+#rightColumn2 {
+    -fx-border-width: 3;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+#rightColumn3 {
+    -fx-border-width: 3;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+}
+
+#score {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-padding: 30px;
+}
+
+#returnMainMenu {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: linear-gradient(to top left, rgba(214, 21, 21), blue);
+    -fx-text-fill: white;
+}
+
+#returnMainMenu:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
+
+#getResultsButton {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: linear-gradient(to top left, rgba(214, 21, 21), blue);
+    -fx-text-fill: white;
+}
+
+#getResultsButton:hover {
+    -fx-background-color: transparent;
+    -fx-border-width: 4;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+}
