@@ -32,7 +32,7 @@ which accesses the database, does so by utilizing `localhost:5432` as a part of 
 
 ## IDEA Project Folder Breakdown (FBLA_Quiz)
 * The `.idea` and `resources` folders can be ignored (they were created as a result of this being an *IntelliJ* project, and through building the `.JAR`)
-* All source files which I created on can be found in `/src/sample` 
+* All source files which I created can be found in `/src/sample` 
 * Images used in the program can be found in `/src/images`
 * The necessary `bash` arguments that I used to launch the program can be found in `VMConfigurations.txt` (these just pointed to where I had the *JavaFX* library installed)
 * My database backup, or dump file, is `dump.sql`. This file can be run in a PostgreSQL shell to create a new copy of the database.
