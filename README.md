@@ -7,7 +7,7 @@ updates. If the database were to receive an update while multiple users had this
 In terms of why I chose *PostgreSQL* over other web-based SQL data platforms (ie. MySQL, SQLite3, etc.) was just due to personal preference and experience.
 
 ### Graphical Interface
-While I had little Java experience at the beginning of this project, I chose to utilize *JavaFX* since I felt it was more flexible than many Python-based GUIs that I was
+While I had little experience with Java APIs at the beginning of this project, I chose to utilize *JavaFX* since I felt it was more flexible than many Python-based GUIs that I was
 initially looking into (and it allowed for more modernized designs). I also used *Gluon's Scene Builder*, so that I could have a direct visualization of changes I made to 
 each scene's `.fxml` file, as well as my styling (CSS) sheet.
 
