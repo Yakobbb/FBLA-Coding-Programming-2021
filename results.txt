@@ -1,0 +1,24 @@
+~FBLA Quiz RESULTS~
+
+#1:  How large is the 2020-21 Logo Package on the FBLA website?
+Answer:  78.3 MB
+You got this question WRONG
+
+#2:  How many FBLA divisions are there?
+Answer:  4
+You got this question WRONG
+
+#3:  The current FBLA ________ is Drew Lojewski.
+Answer:  president
+You got this question CORRECT
+
+#4:  Which is a value that FBLA DOES NOT focus on?
+Answer:  Monetary Improvement
+You got this question CORRECT
+
+#5:  Match the school to the amount of students participating in FBLA this year!
+Answer:  Coral Reef Senior High School  ->  453
+         Union County Vocational  ->  271
+         Buchholz High School  ->  302
+You got this question WRONG
+
