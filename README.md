@@ -18,12 +18,19 @@ While I was the only developer of this project, I chose to periodically push my 
 Rather than spending a great amount of time adding a section to the program where the user can customize the results of his/her quiz, I chose to output a flat text file. The
 file itself contains all the necessary information to summarize the quiz, and due to it being `.txt`, can be plugged into any external document or graphical modifier. These include Microsoft Word, Adobe Acrobat, or even a high-end app like Adobe Photoshop.
 
+### User Interaction and Feedback
+I initially had implemented a simple FAQs document within the directory of the program, but I felt that this didn't invite true user interaction.
+So in addition to this, I utilized Oracle's `JavaMail` API to allow messages to be sent from within the program to an external email account. For this project,
+I created a "dummy" email (fblaquizhelp2021@gmail.com) as a support line. With this functionality, users can voice questions and concerns, and recieve a response
+from the developer catered to their inquiry.
+
 ### Dependencies/Tools Used
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) (class and controller development)
 - [Atom](https://atom.io/) (CSS development)
 - [PostgreSQL](https://www.postgresql.org/)
 - [JavaFX](https://openjfx.io/)
 - [Gluon Scene Builder](https://gluonhq.com/products/scene-builder/)
+- [JavaMail](https://www.oracle.com/java/technologies/javamail.html)
 - `git`
 
 ## NOTICE
@@ -34,5 +41,5 @@ which accesses the database, does so by utilizing `localhost:5432` as a part of 
 * The `.idea` and `resources` folders can be ignored (they were created as a result of this being an *IntelliJ* project, and through building the `.JAR`)
 * All source files which I created can be found in `/src/sample` 
 * Images used in the program can be found in `/src/images`
-* The necessary `bash` arguments that I used to launch the program can be found in `VMConfigurations.txt` (these just pointed to where I had the *JavaFX* library installed)
-* My database backup, or dump file, is `dump.sql`. This file can be run in a PostgreSQL shell to create a new copy of the database.
+* The necessary `bash` arguments that I used to launch the program can be found in `VMConfigurations.txt` (these just pointed to where I had certain elements of the *JavaFX* library installed)
+* My database backup, or dump file, is `dump.sql` and can be found within the `/EXTRA` folder. This file can be run in a PostgreSQL shell to create a new copy of the database.
