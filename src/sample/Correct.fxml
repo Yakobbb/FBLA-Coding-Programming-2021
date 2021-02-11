@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Background" prefHeight="750.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CorrectController">
+   <children>
+      <Label fx:id="correctLabel" alignment="CENTER" layoutX="296.0" layoutY="157.0" prefHeight="167.0" prefWidth="309.0" text="Correct!" textFill="#00ff11">
+         <font>
+            <Font name="System Bold" size="48.0" />
+         </font></Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="361.0" layoutY="285.0" pickOnBounds="true" preserveRatio="true" />
+      <ProgressBar fx:id="progressBar" layoutX="134.0" layoutY="636.0" prefHeight="28.0" prefWidth="672.0" progress="0.0" />
+      <Button fx:id="nextQuestionButton" layoutX="391.0" layoutY="505.0" mnemonicParsing="false" onAction="#goOnward" prefHeight="58.0" prefWidth="118.0" text="Continue">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
