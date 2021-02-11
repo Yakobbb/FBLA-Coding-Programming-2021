@@ -12,7 +12,7 @@ initially looking into (and it allowed for more modernized designs). I also used
 each scene's `.fxml` file, as well as my styling (CSS) sheet.
 
 ### Version Control
-While I was the only developer of this project, I chose to periodically push my files to *Github* through `git` for two reasons: firstly, in case my computer decided to light on fire and fly out of the window, and secondly, so I could gain beginner experience with the platform.
+While I was the only developer of this project, I chose to periodically push my files to *Github* through `git` for two reasons: firstly, in case my computer decided to light on fire and fly out of the window, and secondly, so I could gain more experience with the platform.
 
 ### Output Reports
 Rather than spending a great amount of time adding a section to the program where the user can customize the results of his/her quiz, I chose to output a flat text file. The
@@ -20,7 +20,7 @@ file itself contains all the necessary information to summarize the quiz, and du
 
 ### User Interaction and Feedback
 I initially had implemented a simple FAQs document within the directory of the program, but I felt that this didn't invite true user interaction.
-So in addition to this, I utilized Oracle's JavaMail API to allow messages to be sent from within the program to an external email account. For this project,
+So in addition to this, I utilized Oracle's *JavaMail* API to allow messages to be sent from within the program to an external email account. For this project,
 I created a "dummy" email (fblaquizhelp2021@gmail.com) as a support line. With this added functionality, users can voice their questions and concerns, and receive a response
 from the developer that is catered to their inquiry.
 
@@ -34,12 +34,12 @@ from the developer that is catered to their inquiry.
 - `git`
 
 ## NOTICE
-None of the judges will be able to run the `.JAR` file, nor the program in any other way since I didn't put the database onto a public domain. The `QuestionLoader.java` class,
-which accesses the database, does so by utilizing `localhost:5432` as a part of the server URL.
+None of the judges will be able go through a full quiz if running the `.JAR` file since I didn't put the database onto a public domain. The `QuestionLoader.java` class,
+which accesses the database, does so by utilizing `localhost:5432` as a part of the server URL. With that being said, the main menu and help screens can be loaded.
 
 ## IDEA Project Folder Breakdown (FBLA_Quiz)
 * The `.idea` and `resources` folders can be ignored (they were created as a result of this being an *IntelliJ* project, and through building the `.JAR`)
 * All source files which I created can be found in `/src/sample` 
 * Images used in the program can be found in `/src/images`
-* The necessary `bash` arguments that I used to launch the program can be found in `VMConfigurations.txt` (these just pointed to where I had certain elements of the *JavaFX* library installed)
-* My database backup, or dump file, is `dump.sql` and can be found within the `/EXTRA` folder. This file can be run in a PostgreSQL shell to create a new copy of the database.
+* The necessary `bash` arguments that I used to launch the program can be found in `VMConfigurations.txt` within the `/EXTRAS` folder (these arguments just pointed to where I had certain elements of the *JavaFX* library installed)
+* My database backup, or dump file, is `dump.sql` and can be found within the `/EXTRAS` folder. This file can be run in a PostgreSQL shell to create a new copy of the database.
