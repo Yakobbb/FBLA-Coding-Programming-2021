@@ -20,7 +20,7 @@ file itself contains all the necessary information to summarize the quiz, and du
 
 ### User Interaction and Feedback
 I initially had implemented a simple FAQs document within the directory of the program, but I felt that this didn't invite true user interaction.
-So in addition to this, I utilized Oracle's `JavaMail` API to allow messages to be sent from within the program to an external email account. For this project,
+So in addition to this, I utilized Oracle's JavaMail API to allow messages to be sent from within the program to an external email account. For this project,
 I created a "dummy" email (fblaquizhelp2021@gmail.com) as a support line. With this functionality, users can voice questions and concerns, and recieve a response
 from the developer catered to their inquiry.
 
